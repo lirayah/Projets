@@ -1,0 +1,1 @@
+printf "\x32\x1b" | dd bs=1 count=2 seek=5 of=test.bin
