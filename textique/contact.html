@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="./JS/bouton.js"></script>
+		<meta charset="utf-8">
+        <title>Textique.com : Nous contacter</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <button class="haut" onclick="EnHaut()" id="haut">&uarr;</button>
+        <div class="container">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="image"><img src="logo.png" class="logo" alt="logo"></a>
+                    <a href="index.html" >Accueil</a>
+                    <a href="store.html">Produits</a>
+                    <a href="tissu.html" >Tissu</a>
+                    <a href="partenariat.html">Partenariats</a>
+                    <a href="qsn.html" >Qui sommes nous ?</a>
+                    <a href="contact.html" class="active">Nous contacter</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">///</a>
+            </div>
+
+            <h2>
+                <br>Pour nous contacter:
+            </h2>
+            <br>
+            <fieldset class="post">
+                <br>
+                <form method="post" action="https://dwarves.iut-fbleau.fr/requete.php" enctype="application/x-www-form-urlencoded">
+                    <p>
+                        <label for="name">Nom</label>
+                        <input type="text" name="nom" id="name" required>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="prenom">Prénom</label>
+                        <input type="text" name="prenom" id="prenom" required>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    <br>
+                    <p>
+                        <label for="message">Message</label> <br>
+                        <textarea id="message" class="message" required></textarea>
+                    <br>
+                    <input type="submit" value="Envoyer" class="send">
+                </form>
+            </fieldset>
+			</div>
+
+        <div class="footer">
+            <p>Touts droits réservé à @Textique et ses partenaires</p>
+        </div>
+        
+        <script src="./JS/burger.js"></script>
+
+    </body>
+</html>
