@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <title>Recherche Années Précédentes</title>
+</head>
+<body>
+
+    <div class="w3-container w3-card-2 w3-light-blue w3-border w3-border-black w3-bar" style="padding: 0%;">
+        <a href="../accueil.html"><img src="../../img/UPEC-IUT-Senart-Fontainebleau.svg" alt="Logo" class="w3-container w3-left w3-cell w3-image w3-border-right w3-border-black w3-mobile" style="width: 100%; max-width: 121px; padding: 3px;"></a>
+        <a href="./recherche.html" class="w3-container w3-btn w3-blue w3-left w3-border w3-border-black w3-mobile" style="margin-left: 5px;"><p><span class="w3-medium material-symbols-outlined">search</span>Recherche</p></a>
+        <a href="../Recherche/recherchePrec.html" class="w3-container w3-btn w3-left w3-border w3-border-black w3-mobile" style="background-color: #2a6592; margin-left: 5px;"><p><span class="w3-medium material-symbols-outlined">search</span>Recherche Années Précédentes</p></a>
+        <a href="../../index.html" class="w3-container w3-btn w3-blue w3-right w3-border w3-border-black w3-mobile"><p>Déconnexion</p></a>
+        <a href="./poster.html" class="w3-container w3-btn w3-blue w3-right w3-border w3-border-black w3-mobile" style="margin-right: 5px;"><p>Soumettre Une Offre</p></a>
+    </div>
+
+    <div class="w3-container w3-card-2 w3-light-gray" style="margin-top: 20px;">
+        <form class="">
+            <input type="text" placeholder="Rechercher...">
+            <button type="submit" class="w3-button w3-blue">Rechercher</button>
+        </form>
+        <div class="w3-margin-bottom w3-margin-top">
+            <div class="w3-dropdown-click">
+                <button onclick="fun()" class="w3-button w3-gray">Type travail</button>
+                <div id="Dropdown" class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="#" class="w3-bar-item w3-button">Développeur Web</a>
+                    <a href="#" class="w3-bar-item w3-button">Développeur Application</a>
+                    <a href="#" class="w3-bar-item w3-button">Administrateur Système</a>
+                    <a href="" class="w3-bar-item w3-button">Data Analyst</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-click">
+                <button onclick="fun2()" class="w3-button w3-gray">Technologies Utilisées</button>
+                <div id="Dropdown2" class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="#" class="w3-bar-item w3-button">SQL</a>
+                    <a href="#" class="w3-bar-item w3-button">PHP</a>
+                    <a href="" class="w3-bar-item w3-button">Java</a>
+                    <a href="" class="w3-bar-item w3-button">HTML/CSS</a>
+                    <a href="" class="w3-bar-item w3-button">JavaScript</a>
+                    <a href="" class="w3-bar-item w3-button">C</a>
+                    <a href="" class="w3-bar-item w3-button">C++</a>
+                    <a href="" class="w3-bar-item w3-button">Linux</a>
+                    <a href="" class="w3-bar-item w3-button">Windows</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-click">
+                <button onclick="fun3()" class="w3-button w3-gray">Année</button>
+                <div id="Dropdown3" class="w3-dropdown-content w3-bar-block w3-border">
+                    <a href="#" class="w3-bar-item w3-button">2023</a>
+                    <a href="#" class="w3-bar-item w3-button">2022</a>
+                    <a href="#" class="w3-bar-item w3-button">2021</a>
+                    <a href="#" class="w3-bar-item w3-button">2020</a>
+                    <a href="#" class="w3-bar-item w3-button">2019</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="w3-responsive w3-padding-16 w3-margin w3-row">
+        <table class="w3-table-all w3-hoverable">
+
+            <tr>
+                <th>Sujet</th>
+                <th>Entreprise</th>
+                <th>Lieu</th>
+                <th>Technologies Utilisées</th>
+                <th>Type</th>
+                <th>Année</th>
+                <th>Voir L'offre</th>
+            </tr>
+            <tr>
+                <td>Développement Web Pour Soutien De L'application sur le long terme</td>
+                <td>CTI Melun</td>
+                <td>Rubelles</td>
+                <td>JavaScript, HTML/CSS, PHP</td>
+                <td>Développeur Web</td>
+                <td>2021</td>
+                <td><a href="../OffrePrec/offre1.html">Voir L'offre</a></td>
+            </tr>
+            <tr>
+                <td>Administrateur Système Pour Mise En Place De Serveur DNS/DHCP/VPN</td>
+                <td>Ministère des Armées</td>
+                <td>Paris</td>
+                <td>Linux, Windows</td>
+                <td>Administrateur Système</td>
+                <td>2020</td>
+                <td><a href="../OffrePrec/offre2.html">Voir L'offre</a></td>
+            </tr>
+            
+        </table>
+    </div>
+
+    <div class="w3-center w3-container">
+        <div class="w3-bar w3-border">
+            <a href="#" class="w3-button">«</a>
+            <a href="#" class="w3-button w3-green">1</a>
+            <a href="#" class="w3-button">2</a>
+            <a href="#" class="w3-button">3</a>
+            <a href="#" class="w3-button">4</a>
+            <a href="#" class="w3-button">»</a>
+        </div>
+    </div>
+
+    <div class="w3-container w3-bottom w3-bar w3-indigo w3-tiny">
+        <div class="w3-right">Tous droits réservés</div>
+    </div>
+
+
+
+<script>
+    function fun(){
+        var x = document.getElementById("Dropdown");
+        if(x.className.indexOf("w3-show") == -1){
+            x.className += " w3-show";
+        }else{
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    function fun2(){
+        var x = document.getElementById("Dropdown2");
+        if(x.className.indexOf("w3-show") == -1){
+            x.className += " w3-show";
+        }else{
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+    function fun3(){
+        var x = document.getElementById("Dropdown3");
+        if(x.className.indexOf("w3-show") == -1){
+            x.className += " w3-show";
+        }else{
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+</body>
+</html>

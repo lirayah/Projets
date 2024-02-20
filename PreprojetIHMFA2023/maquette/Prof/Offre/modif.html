@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+    <title>Modification</title>
+</head>
+<body>
+
+    <div class="w3-container w3-card-2 w3-light-blue w3-border w3-border-black w3-bar" style="padding: 0%;">
+        <a href="./accueil.html"><img src="../../img/UPEC-IUT-Senart-Fontainebleau.svg" alt="Logo" class="w3-container w3-left w3-cell w3-image w3-border-right w3-border-black w3-mobile" style="width: 100%; max-width: 121px; padding: 3px;"></a>
+        <a href="../Recherche/recherche.html" class="w3-container w3-btn w3-blue w3-left w3-border w3-border-black w3-mobile" style="margin-left: 5px;"><p><span class="w3-medium material-symbols-outlined">search</span>Recherche</p></a>
+        <a href="../Recherche/recherchePrec.html" class="w3-container w3-btn w3-blue w3-left w3-border w3-border-black w3-mobile" style="margin-left: 5px;"><p><span class="w3-medium material-symbols-outlined">search</span>Recherche Années Précédentes</p></a>
+        <a href="../../index.html" class="w3-container w3-btn w3-blue w3-right w3-border w3-border-black w3-mobile"><p>Déconnexion</p></a>
+        <a href="../poster.html" class="w3-container w3-btn w3-blue w3-right w3-border w3-border-black w3-mobile" style="margin-right: 5px;"><p>Soumettre Une Offre</p></a>
+
+    </div>
+
+    <div class="w3-container">
+        <div class="w3-half w3-border-right">
+            <div class="w3-margin w3-padding">
+                <strong>Offre:</strong> 2
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Titre: </strong>
+                <input type="text" name="Titre" id="Titre" placeholder="Titre">
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Nom Entreprise: </strong>
+                <input type="text" name="NomEnt" id="NomEnt" placeholder="Nom Entreprise"> 
+            </div>
+            <div class="w3-margin w3-padding">
+                <label for="Description"><strong>Description: </strong></label>
+                <textarea rows="10" cols="75" name="Description" id="Description" placeholder="Description" style="resize: none;"></textarea>
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Nombre de postes</strong>
+                <input type="number" name="NombrePostes" id="NombrePostes" placeholder="Nombre de postes">
+            </div>
+        </div>
+        <div class="w3-half">
+            <div class="w3-margin w3-padding">
+                <strong>Durée: </strong>
+                <input type="number" name="Duree" id="Duree" placeholder="Durée"> an(s)
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Salaire: </strong>
+                <input type="number" name="Salaire" id="Salaire" placeholder="Salaire"> % du SMIC
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Lieu: </strong>
+                <input type="text" name="Lieu" id="Lieu" placeholder="Lieu">
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Type: </strong>
+                <select>
+                    <option value="DevWeb">Développeur Web</option>
+                    <option value="DevApp">Développeur Applicatio</option>
+                    <option value="AdminSys">Administrateur Système</option>
+                    <option value="DataAnalyst">Data Analyst</option>
+                </select>
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Technologies Utilisées: </strong>
+                <select name="Techno" id="Techno">
+                    <option value="SQL">SQL</option>
+                    <option value="PHP">PHP</option>
+                    <option value="Java">Java</option>
+                    <option value="HTML">HTML/CSS</option>
+                    <option value="JS">JavaScript</option>
+                    <option value="C">C</option>
+                    <option value="C++">C++</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Windows">Windows</option>
+                </select>
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Quantité de Télétravail: </strong>
+                <input type="number" name="TT" id="TT" max="5"> jours/semaine
+            </div>
+            <div class="w3-margin w3-padding">
+                <strong>Lien vers l'offre proposée par l'entreprise: </strong>
+                <a href="#">www.google.fr</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="w3-center w3-padding">
+        <a href="./confirmModif.html" class="w3-btn w3-blue">Enregistrer</a>
+        <a href="./offreProf.html" class="w3-btn w3-red">Annuler</a>
+    </div>
+
+
+    <div class="w3-container w3-bottom w3-bar w3-indigo w3-tiny">
+            <div class="w3-right">Tous droits réservés</div>
+    </div>
+
+
+</body>
+</html>
