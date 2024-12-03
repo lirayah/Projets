@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        android:title="Configuration du jeu">
+
+        <SwitchPreference
+            android:title="@string/petite_grille"
+            android:key="@string/petite_grille"
+            />
+
+        <SwitchPreference
+            android:title="@string/prolongement_de_ligne"
+            android:key="@string/prolongement_de_ligne"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

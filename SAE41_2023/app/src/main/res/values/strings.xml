@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Morpion Solitaire</string>
+    <string name="morpion_solitaire">Morpion Solitaire</string>
+    <string name="jouer">Jouer</string>
+    <string name="parametres">Parametres</string>
+    <string name="prolongement_de_ligne">Prolongement de ligne</string>
+    <string name="petite_grille">Petite grille</string>
+</resources>
